@@ -19,6 +19,6 @@ build-backend = "hatchling.build"
 packages = ["brain_games"]
 
 [project.scripts]
-brain_games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.scripts.brain_games:main"
 
 
