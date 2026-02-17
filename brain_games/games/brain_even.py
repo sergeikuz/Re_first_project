@@ -1,6 +1,9 @@
 from random import randint
 
 
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
 def is_even(num: int) -> bool:
     if num % 2 == 0:
         return True
